@@ -4,17 +4,21 @@
 }
 
 body {
-    background-color: #f4d04e;
     box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4d04e;
     font-family: "Figtree", sans-serif;
 }
 
 .card {
     background-color: white;
     border-radius: 20px;
+    box-shadow: 10px 10px 0 black;
     max-width: 384px;
     padding: 2rem;
-    margin: 5rem auto 0 auto;
 }
 
 .card-image img {
@@ -22,11 +26,8 @@ body {
     border-radius: 20px;
 }
 
-.learning {
+.category {
     margin-top: 2rem;
-}
-
-.learning {
     background-color: #f4d04e;
     border-radius: 5px;
     max-width: 5rem;
